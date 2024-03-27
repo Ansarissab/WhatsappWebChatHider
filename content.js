@@ -1,4 +1,4 @@
-const sidebar = document.querySelector("div._2Ts6i div#side");
+const sidebar = document.querySelector("div#side");
 const buttonContainer = document.createElement("div");
 const button = document.createElement("button");
 
@@ -19,7 +19,7 @@ buttonContainer.appendChild(button);
 document.body.appendChild(buttonContainer);
 
 button.addEventListener("click", () => {
-  const sidebar = document.querySelector("div._2Ts6i div#side");
+  const sidebar = document.querySelector("div#side");
 
   isSidebarHidden = !isSidebarHidden;
   if (isSidebarHidden) {
